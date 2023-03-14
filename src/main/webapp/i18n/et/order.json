@@ -1,0 +1,29 @@
+{
+  "coopcycleApp": {
+    "order": {
+      "home": {
+        "title": "Orders",
+        "refreshListLabel": "Värskenda nimekirja",
+        "createLabel": "Lisa uus Order",
+        "createOrEditLabel": "Lisa või muuda Order",
+        "notFound": "Ei leitud ühtegi Orders"
+      },
+      "created": "Uus Order on loodud identifikaatoriga {{ param }}",
+      "updated": "Order identifikaatoriga {{ param }} on muudetud",
+      "deleted": "Order identifikaatoriga {{ param }} on kustutatud",
+      "delete": {
+        "question": "Kas olete kindel, et soovite kustutada Order {{ id }}?"
+      },
+      "detail": {
+        "title": "Order"
+      },
+      "id": "ID",
+      "address": "Address",
+      "price": "Price",
+      "status": "Status",
+      "courier": "Courier",
+      "client": "Client",
+      "restaurant": "Restaurant"
+    }
+  }
+}

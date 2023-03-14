@@ -1,0 +1,35 @@
+entity Client {
+  firstName String minlength(2) required,
+  lastName String minlength(2) required,
+  phone String minlength(10) maxlength(10) required,
+  address String required
+}
+
+entity Restaurant {
+  name String maxlength(30) required,
+  address String required,
+  phone String minlength(10) maxlength(10) required,
+  email String
+}
+
+entity Courier {
+  firstName String minlength(2) required,
+  lastName String minlength(2) required,
+  phone String minlength(10) maxlength(10) required,
+  vehicle String required
+}
+
+entity Order {
+  address String required,
+  price Float required,
+  status String required
+}
+
+relationship OneToMany {
+  Client to Order,
+  Restaurant to Order
+}
+
+relationship OneToOne {
+  Courier to Order
+}

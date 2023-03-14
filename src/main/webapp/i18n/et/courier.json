@@ -1,0 +1,28 @@
+{
+  "coopcycleApp": {
+    "courier": {
+      "home": {
+        "title": "Couriers",
+        "refreshListLabel": "Värskenda nimekirja",
+        "createLabel": "Lisa uus Courier",
+        "createOrEditLabel": "Lisa või muuda Courier",
+        "notFound": "Ei leitud ühtegi Couriers"
+      },
+      "created": "Uus Courier on loodud identifikaatoriga {{ param }}",
+      "updated": "Courier identifikaatoriga {{ param }} on muudetud",
+      "deleted": "Courier identifikaatoriga {{ param }} on kustutatud",
+      "delete": {
+        "question": "Kas olete kindel, et soovite kustutada Courier {{ id }}?"
+      },
+      "detail": {
+        "title": "Courier"
+      },
+      "id": "ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "phone": "Phone",
+      "vehicle": "Vehicle",
+      "order": "Order"
+    }
+  }
+}
